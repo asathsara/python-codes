@@ -1,0 +1,4 @@
+print('Hello, World')
+first_num = int(input('Enter first num'))
+second_num = int(input('Enter Second num'))
+print('Multiply of numbers are :-  ' , first_num * second_num)
