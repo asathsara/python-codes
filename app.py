@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 print('Hello, World')
 first_num = int(input('Enter first num'))
 second_num = int(input('Enter Second num'))
@@ -23,11 +24,14 @@ print(first_num,'+',second_num,'=',first_num + second_num) # Second method
 =======
 name = "Abcd"
 >>>>>>> 91b8d14 (Strings)
+=======
+# Numbers
+from math import *
+>>>>>>> e1813d6 (Numbers)
 
-print('Hello \'')
-print(name.upper()) # To UpperCase
-print(name.lower()) # To LowerCase
+print(max(2,3,4,5)) 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 # Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. Other programming
 # languages often use curly-brackets for this purpose.
@@ -42,3 +46,13 @@ else:
 print(name.index('d'))
 print(name.replace('b','a'))
 >>>>>>> 91b8d14 (Strings)
+=======
+numbers = [2,4,5,6]
+
+print(max(numbers)) # Get max valuein numbers
+print(min(numbers)) # Get minimum value in numbers
+
+print(bin(1)) # Return the binary representation of an integer
+print('...........')
+print(sqrt(36))
+>>>>>>> e1813d6 (Numbers)
