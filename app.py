@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 print('Hello, World')
 first_num = int(input('Enter first num'))
 second_num = int(input('Enter Second num'))
@@ -28,9 +29,13 @@ name = "Abcd"
 # Numbers
 from math import *
 >>>>>>> e1813d6 (Numbers)
+=======
+# Word Replacing Game
+>>>>>>> 844ce33 (Word Replacing Game)
 
-print(max(2,3,4,5)) 
+sentences = input('Enter your sentences: ')
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 # Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. Other programming
@@ -48,11 +53,19 @@ print(name.replace('b','a'))
 >>>>>>> 91b8d14 (Strings)
 =======
 numbers = [2,4,5,6]
+=======
+print(' ')
+>>>>>>> 844ce33 (Word Replacing Game)
 
-print(max(numbers)) # Get max valuein numbers
-print(min(numbers)) # Get minimum value in numbers
+word_one = input('Enter the word to replace: ')
+word_two = input('Enter the word to replace it with: ')
 
+<<<<<<< HEAD
 print(bin(1)) # Return the binary representation of an integer
 print('...........')
 print(sqrt(36))
 >>>>>>> e1813d6 (Numbers)
+=======
+print('')
+print(sentences.replace(word_one,word_two)) # Replace word with another
+>>>>>>> 844ce33 (Word Replacing Game)
