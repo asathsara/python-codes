@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 print('Hello, World')
 first_num = int(input('Enter first num'))
 second_num = int(input('Enter Second num'))
@@ -19,10 +20,15 @@ print(first_num,'+',second_num,'=',first_num + second_num) # Second method
 >>>>>>> 51d482c (New Try)
 =======
 # Python If else
+=======
+name = "Abcd"
+>>>>>>> 91b8d14 (Strings)
 
-a = 50
-b = 200
+print('Hello \'')
+print(name.upper()) # To UpperCase
+print(name.lower()) # To LowerCase
 
+<<<<<<< HEAD
 # Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. Other programming
 # languages often use curly-brackets for this purpose.
 if a > b:
@@ -32,3 +38,7 @@ elif a == b:
 else:
     print("b is greater than a")
 >>>>>>> aac70d1 (If else and game)
+=======
+print(name.index('d'))
+print(name.replace('b','a'))
+>>>>>>> 91b8d14 (Strings)
