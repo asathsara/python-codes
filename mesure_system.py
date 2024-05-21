@@ -1,57 +1,57 @@
 # Functions
-# In Python, you need to define the functions before you call them.
 
+# In Python, you need to define the functions before you call them.
 def cube_area(cube_length):
-    area = 6 * (cube_length ** 2)
+    area = round(6 * (cube_length ** 2), 2)
     print('______________\n')
     print(f'Cube length = {cube_length}\n')
     print(f'Cube surface area = {area}\n')
     print('______________\n')
 
 def cube_volume(cube_length):
-    volume = cube_length ** 3
+    volume = round(cube_length ** 3, 2)
     print('______________\n')
     print(f'Cube length = {cube_length}\n')
     print(f'Cube volume = {volume}\n')
     print('______________\n')
 
 def cuboid_area(length, breadth, height):
-    area = 2 * (length * breadth + breadth * height + height * length)
+    area = round(2 * (length * breadth + breadth * height + height * length), 2)
     print('______________\n')
     print(f'Cuboid dimensions (length, breadth, height) = ({length}, {breadth}, {height})\n')
     print(f'Cuboid surface area = {area}\n')
     print('______________\n')
 
 def cuboid_volume(length, breadth, height):
-    volume = length * breadth * height
+    volume = round(length * breadth * height, 2)
     print('______________\n')
     print(f'Cuboid dimensions (length, breadth, height) = ({length}, {breadth}, {height})\n')
     print(f'Cuboid volume = {volume}\n')
     print('______________\n')
 
 def sphere_area(radius):
-    area = 4 * 3.14159 * (radius ** 2)
+    area = round(4 * 3.14159 * (radius ** 2), 2)
     print('______________\n')
     print(f'Sphere radius = {radius}\n')
     print(f'Sphere surface area = {area}\n')
     print('______________\n')
 
 def sphere_volume(radius):
-    volume = (4/3) * 3.14159 * (radius ** 3)
+    volume = round((4/3) * 3.14159 * (radius ** 3), 2)
     print('______________\n')
     print(f'Sphere radius = {radius}\n')
     print(f'Sphere volume = {volume}\n')
     print('______________\n')
 
 def cylinder_area(radius, height):
-    area = 2 * 3.14159 * radius * (radius + height)
+    area = round(2 * 3.14159 * radius * (radius + height), 2)
     print('______________\n')
     print(f'Cylinder radius = {radius}, height = {height}\n')
     print(f'Cylinder surface area = {area}\n')
     print('______________\n')
 
 def cylinder_volume(radius, height):
-    volume = 3.14159 * (radius ** 2) * height
+    volume = round(3.14159 * (radius ** 2) * height, 2)
     print('______________\n')
     print(f'Cylinder radius = {radius}, height = {height}\n')
     print(f'Cylinder volume = {volume}\n')
@@ -59,14 +59,14 @@ def cylinder_volume(radius, height):
 
 def cone_area(radius, height):
     slant_height = (radius ** 2 + height ** 2) ** 0.5
-    area = 3.14159 * radius * (radius + slant_height)
+    area = round(3.14159 * radius * (radius + slant_height), 2)
     print('______________\n')
     print(f'Cone radius = {radius}, height = {height}\n')
     print(f'Cone surface area = {area}\n')
     print('______________\n')
 
 def cone_volume(radius, height):
-    volume = (1/3) * 3.14159 * (radius ** 2) * height
+    volume = round((1/3) * 3.14159 * (radius ** 2) * height, 2)
     print('______________\n')
     print(f'Cone radius = {radius}, height = {height}\n')
     print(f'Cone volume = {volume}\n')
