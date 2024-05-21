@@ -67,5 +67,9 @@ print(sqrt(36))
 >>>>>>> e1813d6 (Numbers)
 =======
 print('')
+<<<<<<< HEAD
 print(sentences.replace(word_one,word_two)) # Replace word with another
 >>>>>>> 844ce33 (Word Replacing Game)
+=======
+print(sentences.replace(word_one,word_two)) # Replace word with another
+>>>>>>> 5dc3270 (MESURE SYSTEM)
