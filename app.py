@@ -68,8 +68,12 @@ print(sqrt(36))
 =======
 print('')
 <<<<<<< HEAD
+<<<<<<< HEAD
 print(sentences.replace(word_one,word_two)) # Replace word with another
 >>>>>>> 844ce33 (Word Replacing Game)
 =======
 print(sentences.replace(word_one,word_two)) # Replace word with another
 >>>>>>> 5dc3270 (MESURE SYSTEM)
+=======
+print(sentences.replace(word_one, word_two))  # Replace word with another
+>>>>>>> 7e9c859 (Tuple Learn)
